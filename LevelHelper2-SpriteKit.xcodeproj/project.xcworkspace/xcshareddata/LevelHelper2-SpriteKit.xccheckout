@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64AAC41C-33BB-4A66-9170-D05C4E65C91A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LevelHelper2-SpriteKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E29C140E-A328-49FA-9EA9-A9261C54037B</key>
+		<string>ssh://github.com/vladubogdan/SpriteKit-Box2d-BUG-REPORT.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LevelHelper2-SpriteKit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>63E45332-5AD7-4E94-9899-A6D7E89B09FB</key>
+		<string>../../../../../../Volumes/PersonalFiles/Projects/PrivateProjects/LevelsAPI/LevelHelper2-SpriteKit</string>
+		<key>E29C140E-A328-49FA-9EA9-A9261C54037B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/vladubogdan/SpriteKit-Box2d-BUG-REPORT.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E29C140E-A328-49FA-9EA9-A9261C54037B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>63E45332-5AD7-4E94-9899-A6D7E89B09FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LevelHelper2-SpriteKit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E29C140E-A328-49FA-9EA9-A9261C54037B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpriteKit-BUG</string>
+		</dict>
+	</array>
+</dict>
+</plist>

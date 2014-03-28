@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E01306818E021A1004E95BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306718E021A1004E95BD /* Foundation.framework */; };
+		6E01306A18E021A1004E95BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306918E021A1004E95BD /* CoreGraphics.framework */; };
+		6E01306C18E021A1004E95BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306B18E021A1004E95BD /* UIKit.framework */; };
+		6E01306E18E021A1004E95BD /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306D18E021A1004E95BD /* SpriteKit.framework */; };
+		6E01307418E021A1004E95BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E01307218E021A1004E95BD /* InfoPlist.strings */; };
+		6E01307618E021A1004E95BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01307518E021A1004E95BD /* main.m */; };
+		6E01307A18E021A1004E95BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01307918E021A1004E95BD /* AppDelegate.m */; };
+		6E01307D18E021A1004E95BD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01307B18E021A1004E95BD /* Main_iPhone.storyboard */; };
+		6E01308018E021A1004E95BD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01307E18E021A1004E95BD /* Main_iPad.storyboard */; };
+		6E01308318E021A1004E95BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01308218E021A1004E95BD /* ViewController.m */; };
+		6E01308618E021A1004E95BD /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01308518E021A1004E95BD /* MyScene.m */; };
+		6E01308A18E021A1004E95BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E01308918E021A1004E95BD /* Images.xcassets */; };
+		6E01309118E021A2004E95BD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01309018E021A2004E95BD /* XCTest.framework */; };
+		6E01309218E021A2004E95BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306718E021A1004E95BD /* Foundation.framework */; };
+		6E01309318E021A2004E95BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306B18E021A1004E95BD /* UIKit.framework */; };
+		6E01309B18E021A2004E95BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E01309918E021A2004E95BD /* InfoPlist.strings */; };
+		6E01309D18E021A2004E95BD /* LevelHelper2_SpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01309C18E021A2004E95BD /* LevelHelper2_SpriteKitTests.m */; };
+		6E0130C618E0423E004E95BD /* levels in Resources */ = {isa = PBXBuildFile; fileRef = 6E0130C418E0423E004E95BD /* levels */; };
+		6E0130CA18E042AD004E95BD /* LHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0130C918E042AD004E95BD /* LHScene.m */; };
+		6E0130D718E04AF3004E95BD /* LHSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0130D618E04AF2004E95BD /* LHSprite.m */; };
+		6E2B7D7118E16BD800C01345 /* LHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B7D7018E16BD800C01345 /* LHUtils.m */; };
+		6E5B7EDC18E444CA002E2E0F /* LHRopeShapeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B7EDB18E444CA002E2E0F /* LHRopeShapeNode.m */; };
+		6E5B7EDD18E444CA002E2E0F /* LHRopeShapeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B7EDB18E444CA002E2E0F /* LHRopeShapeNode.m */; };
+		6EB0DA8C18E185DA008E9115 /* NSDictionary+LHDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0DA8B18E185DA008E9115 /* NSDictionary+LHDictionary.m */; };
+		6EB0DA9D18E19A58008E9115 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0DA9C18E19A58008E9115 /* images */; };
+		6EB7E12318E2D177009E87AA /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01308518E021A1004E95BD /* MyScene.m */; };
+		6EB7E12418E2D177009E87AA /* LHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0130C918E042AD004E95BD /* LHScene.m */; };
+		6EB7E12518E2D177009E87AA /* NSDictionary+LHDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0DA8B18E185DA008E9115 /* NSDictionary+LHDictionary.m */; };
+		6EB7E12618E2D177009E87AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01308218E021A1004E95BD /* ViewController.m */; };
+		6EB7E12718E2D177009E87AA /* LHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B7D7018E16BD800C01345 /* LHUtils.m */; };
+		6EB7E12818E2D177009E87AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01307918E021A1004E95BD /* AppDelegate.m */; };
+		6EB7E12918E2D177009E87AA /* LHSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0130D618E04AF2004E95BD /* LHSprite.m */; };
+		6EB7E12A18E2D177009E87AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01307518E021A1004E95BD /* main.m */; };
+		6EB7E12C18E2D177009E87AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306918E021A1004E95BD /* CoreGraphics.framework */; };
+		6EB7E12D18E2D177009E87AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306B18E021A1004E95BD /* UIKit.framework */; };
+		6EB7E12E18E2D177009E87AA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306D18E021A1004E95BD /* SpriteKit.framework */; };
+		6EB7E12F18E2D177009E87AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01306718E021A1004E95BD /* Foundation.framework */; };
+		6EB7E13218E2D177009E87AA /* levels in Resources */ = {isa = PBXBuildFile; fileRef = 6E0130C418E0423E004E95BD /* levels */; };
+		6EB7E13318E2D177009E87AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E01308918E021A1004E95BD /* Images.xcassets */; };
+		6EB7E13418E2D177009E87AA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01307E18E021A1004E95BD /* Main_iPad.storyboard */; };
+		6EB7E13518E2D177009E87AA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0DA9C18E19A58008E9115 /* images */; };
+		6EB7E13618E2D177009E87AA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01307B18E021A1004E95BD /* Main_iPhone.storyboard */; };
+		6EB7E13718E2D177009E87AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E01307218E021A1004E95BD /* InfoPlist.strings */; };
+		6EB7E14918E2F817009E87AA /* LHSceneSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7E14818E2F817009E87AA /* LHSceneSubclass.m */; };
+		6EB7E14A18E2F817009E87AA /* LHSceneSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7E14818E2F817009E87AA /* LHSceneSubclass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E01309418E021A2004E95BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E01305C18E021A1004E95BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E01306318E021A1004E95BD;
+			remoteInfo = "LevelHelper2-SpriteKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E01306418E021A1004E95BD /* LevelHelper2-SpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LevelHelper2-SpriteKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E01306718E021A1004E95BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E01306918E021A1004E95BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E01306B18E021A1004E95BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E01306D18E021A1004E95BD /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6E01307118E021A1004E95BD /* LevelHelper2-SpriteKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevelHelper2-SpriteKit-Info.plist"; sourceTree = "<group>"; };
+		6E01307318E021A1004E95BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E01307518E021A1004E95BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E01307718E021A1004E95BD /* LevelHelper2-SpriteKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LevelHelper2-SpriteKit-Prefix.pch"; sourceTree = "<group>"; };
+		6E01307818E021A1004E95BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E01307918E021A1004E95BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E01307C18E021A1004E95BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6E01307F18E021A1004E95BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6E01308118E021A1004E95BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E01308218E021A1004E95BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E01308418E021A1004E95BD /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		6E01308518E021A1004E95BD /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		6E01308918E021A1004E95BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E01308F18E021A2004E95BD /* LevelHelper2-SpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LevelHelper2-SpriteKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E01309018E021A2004E95BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E01309818E021A2004E95BD /* LevelHelper2-SpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevelHelper2-SpriteKitTests-Info.plist"; sourceTree = "<group>"; };
+		6E01309A18E021A2004E95BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E01309C18E021A2004E95BD /* LevelHelper2_SpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelHelper2_SpriteKitTests.m; sourceTree = "<group>"; };
+		6E0130C418E0423E004E95BD /* levels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = levels; sourceTree = "<group>"; };
+		6E0130C818E042AD004E95BD /* LHScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHScene.h; sourceTree = "<group>"; };
+		6E0130C918E042AD004E95BD /* LHScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHScene.m; sourceTree = "<group>"; };
+		6E0130D518E04AF2004E95BD /* LHSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSprite.h; sourceTree = "<group>"; };
+		6E0130D618E04AF2004E95BD /* LHSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHSprite.m; sourceTree = "<group>"; };
+		6E2B7D5618E06E4A00C01345 /* LHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHUtils.h; sourceTree = "<group>"; };
+		6E2B7D5718E070E300C01345 /* LHNodeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNodeProtocol.h; sourceTree = "<group>"; };
+		6E2B7D7018E16BD800C01345 /* LHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHUtils.m; sourceTree = "<group>"; };
+		6E5B7EDA18E444CA002E2E0F /* LHRopeShapeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHRopeShapeNode.h; sourceTree = "<group>"; };
+		6E5B7EDB18E444CA002E2E0F /* LHRopeShapeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHRopeShapeNode.m; sourceTree = "<group>"; };
+		6EB0DA8A18E185DA008E9115 /* NSDictionary+LHDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LHDictionary.h"; sourceTree = "<group>"; };
+		6EB0DA8B18E185DA008E9115 /* NSDictionary+LHDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LHDictionary.m"; sourceTree = "<group>"; };
+		6EB0DA9C18E19A58008E9115 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6EB7E13C18E2D177009E87AA /* LevelHelper2-SpriteKit copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LevelHelper2-SpriteKit copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB7E13D18E2D177009E87AA /* LevelHelper2-SpriteKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LevelHelper2-SpriteKit copy-Info.plist"; path = "/Volumes/PersonalFiles/Projects/PrivateProjects/LevelsAPI/LevelHelper2-SpriteKit/LevelHelper2-SpriteKit copy-Info.plist"; sourceTree = "<absolute>"; };
+		6EB7E14718E2F817009E87AA /* LHSceneSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSceneSubclass.h; sourceTree = "<group>"; };
+		6EB7E14818E2F817009E87AA /* LHSceneSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHSceneSubclass.m; sourceTree = "<group>"; };
+		6EB7E16718E30A1E009E87AA /* LHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E01306118E021A1004E95BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E01306A18E021A1004E95BD /* CoreGraphics.framework in Frameworks */,
+				6E01306C18E021A1004E95BD /* UIKit.framework in Frameworks */,
+				6E01306E18E021A1004E95BD /* SpriteKit.framework in Frameworks */,
+				6E01306818E021A1004E95BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E01308C18E021A2004E95BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E01309118E021A2004E95BD /* XCTest.framework in Frameworks */,
+				6E01309318E021A2004E95BD /* UIKit.framework in Frameworks */,
+				6E01309218E021A2004E95BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB7E12B18E2D177009E87AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB7E12C18E2D177009E87AA /* CoreGraphics.framework in Frameworks */,
+				6EB7E12D18E2D177009E87AA /* UIKit.framework in Frameworks */,
+				6EB7E12E18E2D177009E87AA /* SpriteKit.framework in Frameworks */,
+				6EB7E12F18E2D177009E87AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E01305B18E021A1004E95BD = {
+			isa = PBXGroup;
+			children = (
+				6E01306F18E021A1004E95BD /* LevelHelper2-SpriteKit */,
+				6E01309618E021A2004E95BD /* LevelHelper2-SpriteKitTests */,
+				6E01306618E021A1004E95BD /* Frameworks */,
+				6E01306518E021A1004E95BD /* Products */,
+				6EB7E13D18E2D177009E87AA /* LevelHelper2-SpriteKit copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		6E01306518E021A1004E95BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E01306418E021A1004E95BD /* LevelHelper2-SpriteKit.app */,
+				6E01308F18E021A2004E95BD /* LevelHelper2-SpriteKitTests.xctest */,
+				6EB7E13C18E2D177009E87AA /* LevelHelper2-SpriteKit copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E01306618E021A1004E95BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E01306718E021A1004E95BD /* Foundation.framework */,
+				6E01306918E021A1004E95BD /* CoreGraphics.framework */,
+				6E01306B18E021A1004E95BD /* UIKit.framework */,
+				6E01306D18E021A1004E95BD /* SpriteKit.framework */,
+				6E01309018E021A2004E95BD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E01306F18E021A1004E95BD /* LevelHelper2-SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E0130C718E04271004E95BD /* LevelHelper2-API */,
+				6E01307818E021A1004E95BD /* AppDelegate.h */,
+				6E01307918E021A1004E95BD /* AppDelegate.m */,
+				6E01307B18E021A1004E95BD /* Main_iPhone.storyboard */,
+				6E01307E18E021A1004E95BD /* Main_iPad.storyboard */,
+				6E01308118E021A1004E95BD /* ViewController.h */,
+				6E01308218E021A1004E95BD /* ViewController.m */,
+				6E01308418E021A1004E95BD /* MyScene.h */,
+				6E01308518E021A1004E95BD /* MyScene.m */,
+				6EB7E14718E2F817009E87AA /* LHSceneSubclass.h */,
+				6EB7E14818E2F817009E87AA /* LHSceneSubclass.m */,
+				6E01308918E021A1004E95BD /* Images.xcassets */,
+				6E01307018E021A1004E95BD /* Supporting Files */,
+			);
+			path = "LevelHelper2-SpriteKit";
+			sourceTree = "<group>";
+		};
+		6E01307018E021A1004E95BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0130B218E04229004E95BD /* Resources */,
+				6E01307118E021A1004E95BD /* LevelHelper2-SpriteKit-Info.plist */,
+				6E01307218E021A1004E95BD /* InfoPlist.strings */,
+				6E01307518E021A1004E95BD /* main.m */,
+				6E01307718E021A1004E95BD /* LevelHelper2-SpriteKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E01309618E021A2004E95BD /* LevelHelper2-SpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E01309C18E021A2004E95BD /* LevelHelper2_SpriteKitTests.m */,
+				6E01309718E021A2004E95BD /* Supporting Files */,
+			);
+			path = "LevelHelper2-SpriteKitTests";
+			sourceTree = "<group>";
+		};
+		6E01309718E021A2004E95BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E01309818E021A2004E95BD /* LevelHelper2-SpriteKitTests-Info.plist */,
+				6E01309918E021A2004E95BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E0130B218E04229004E95BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0DA9C18E19A58008E9115 /* images */,
+				6E0130C418E0423E004E95BD /* levels */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E0130C718E04271004E95BD /* LevelHelper2-API */ = {
+			isa = PBXGroup;
+			children = (
+				6E0130C818E042AD004E95BD /* LHScene.h */,
+				6E0130C918E042AD004E95BD /* LHScene.m */,
+				6E0130D518E04AF2004E95BD /* LHSprite.h */,
+				6E0130D618E04AF2004E95BD /* LHSprite.m */,
+				6E2B7D5618E06E4A00C01345 /* LHUtils.h */,
+				6E2B7D7018E16BD800C01345 /* LHUtils.m */,
+				6E2B7D5718E070E300C01345 /* LHNodeProtocol.h */,
+				6EB0DA8A18E185DA008E9115 /* NSDictionary+LHDictionary.h */,
+				6EB0DA8B18E185DA008E9115 /* NSDictionary+LHDictionary.m */,
+				6EB7E16718E30A1E009E87AA /* LHConfig.h */,
+				6E5B7EDA18E444CA002E2E0F /* LHRopeShapeNode.h */,
+				6E5B7EDB18E444CA002E2E0F /* LHRopeShapeNode.m */,
+			);
+			path = "LevelHelper2-API";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E01306318E021A1004E95BD /* LevelHelper2-SpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0130A018E021A2004E95BD /* Build configuration list for PBXNativeTarget "LevelHelper2-SpriteKit" */;
+			buildPhases = (
+				6E01306018E021A1004E95BD /* Sources */,
+				6E01306118E021A1004E95BD /* Frameworks */,
+				6E01306218E021A1004E95BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LevelHelper2-SpriteKit";
+			productName = "LevelHelper2-SpriteKit";
+			productReference = 6E01306418E021A1004E95BD /* LevelHelper2-SpriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E01308E18E021A2004E95BD /* LevelHelper2-SpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0130A318E021A2004E95BD /* Build configuration list for PBXNativeTarget "LevelHelper2-SpriteKitTests" */;
+			buildPhases = (
+				6E01308B18E021A2004E95BD /* Sources */,
+				6E01308C18E021A2004E95BD /* Frameworks */,
+				6E01308D18E021A2004E95BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E01309518E021A2004E95BD /* PBXTargetDependency */,
+			);
+			name = "LevelHelper2-SpriteKitTests";
+			productName = "LevelHelper2-SpriteKitTests";
+			productReference = 6E01308F18E021A2004E95BD /* LevelHelper2-SpriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB7E12118E2D177009E87AA /* LevelHelper2-SpriteKit-NO_ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB7E13918E2D177009E87AA /* Build configuration list for PBXNativeTarget "LevelHelper2-SpriteKit-NO_ARC" */;
+			buildPhases = (
+				6EB7E12218E2D177009E87AA /* Sources */,
+				6EB7E12B18E2D177009E87AA /* Frameworks */,
+				6EB7E13018E2D177009E87AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LevelHelper2-SpriteKit-NO_ARC";
+			productName = "LevelHelper2-SpriteKit";
+			productReference = 6EB7E13C18E2D177009E87AA /* LevelHelper2-SpriteKit copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E01305C18E021A1004E95BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GameDevHelper.com;
+				TargetAttributes = {
+					6E01308E18E021A2004E95BD = {
+						TestTargetID = 6E01306318E021A1004E95BD;
+					};
+				};
+			};
+			buildConfigurationList = 6E01305F18E021A1004E95BD /* Build configuration list for PBXProject "LevelHelper2-SpriteKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E01305B18E021A1004E95BD;
+			productRefGroup = 6E01306518E021A1004E95BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E01306318E021A1004E95BD /* LevelHelper2-SpriteKit */,
+				6E01308E18E021A2004E95BD /* LevelHelper2-SpriteKitTests */,
+				6EB7E12118E2D177009E87AA /* LevelHelper2-SpriteKit-NO_ARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E01306218E021A1004E95BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0130C618E0423E004E95BD /* levels in Resources */,
+				6E01308A18E021A1004E95BD /* Images.xcassets in Resources */,
+				6E01308018E021A1004E95BD /* Main_iPad.storyboard in Resources */,
+				6EB0DA9D18E19A58008E9115 /* images in Resources */,
+				6E01307D18E021A1004E95BD /* Main_iPhone.storyboard in Resources */,
+				6E01307418E021A1004E95BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E01308D18E021A2004E95BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E01309B18E021A2004E95BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB7E13018E2D177009E87AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB7E13218E2D177009E87AA /* levels in Resources */,
+				6EB7E13318E2D177009E87AA /* Images.xcassets in Resources */,
+				6EB7E13418E2D177009E87AA /* Main_iPad.storyboard in Resources */,
+				6EB7E13518E2D177009E87AA /* images in Resources */,
+				6EB7E13618E2D177009E87AA /* Main_iPhone.storyboard in Resources */,
+				6EB7E13718E2D177009E87AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E01306018E021A1004E95BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E01308618E021A1004E95BD /* MyScene.m in Sources */,
+				6E0130CA18E042AD004E95BD /* LHScene.m in Sources */,
+				6EB0DA8C18E185DA008E9115 /* NSDictionary+LHDictionary.m in Sources */,
+				6E01308318E021A1004E95BD /* ViewController.m in Sources */,
+				6E2B7D7118E16BD800C01345 /* LHUtils.m in Sources */,
+				6E5B7EDC18E444CA002E2E0F /* LHRopeShapeNode.m in Sources */,
+				6E01307A18E021A1004E95BD /* AppDelegate.m in Sources */,
+				6E0130D718E04AF3004E95BD /* LHSprite.m in Sources */,
+				6EB7E14918E2F817009E87AA /* LHSceneSubclass.m in Sources */,
+				6E01307618E021A1004E95BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E01308B18E021A2004E95BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E01309D18E021A2004E95BD /* LevelHelper2_SpriteKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB7E12218E2D177009E87AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB7E12318E2D177009E87AA /* MyScene.m in Sources */,
+				6EB7E12418E2D177009E87AA /* LHScene.m in Sources */,
+				6EB7E12518E2D177009E87AA /* NSDictionary+LHDictionary.m in Sources */,
+				6EB7E12618E2D177009E87AA /* ViewController.m in Sources */,
+				6EB7E12718E2D177009E87AA /* LHUtils.m in Sources */,
+				6E5B7EDD18E444CA002E2E0F /* LHRopeShapeNode.m in Sources */,
+				6EB7E12818E2D177009E87AA /* AppDelegate.m in Sources */,
+				6EB7E12918E2D177009E87AA /* LHSprite.m in Sources */,
+				6EB7E14A18E2F817009E87AA /* LHSceneSubclass.m in Sources */,
+				6EB7E12A18E2D177009E87AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E01309518E021A2004E95BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E01306318E021A1004E95BD /* LevelHelper2-SpriteKit */;
+			targetProxy = 6E01309418E021A2004E95BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E01307218E021A1004E95BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E01307318E021A1004E95BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E01307B18E021A1004E95BD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E01307C18E021A1004E95BD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6E01307E18E021A1004E95BD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E01307F18E021A1004E95BD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6E01309918E021A2004E95BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E01309A18E021A2004E95BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E01309E18E021A2004E95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E01309F18E021A2004E95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E0130A118E021A2004E95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E0130A218E021A2004E95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E0130A418E021A2004E95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LevelHelper2-SpriteKit.app/LevelHelper2-SpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LevelHelper2-SpriteKitTests/LevelHelper2-SpriteKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E0130A518E021A2004E95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LevelHelper2-SpriteKit.app/LevelHelper2-SpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "LevelHelper2-SpriteKitTests/LevelHelper2-SpriteKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		6EB7E13A18E2D177009E87AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "LevelHelper2-SpriteKit copy-Info.plist";
+				PRODUCT_NAME = "LevelHelper2-SpriteKit copy";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EB7E13B18E2D177009E87AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevelHelper2-SpriteKit/LevelHelper2-SpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "LevelHelper2-SpriteKit copy-Info.plist";
+				PRODUCT_NAME = "LevelHelper2-SpriteKit copy";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E01305F18E021A1004E95BD /* Build configuration list for PBXProject "LevelHelper2-SpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E01309E18E021A2004E95BD /* Debug */,
+				6E01309F18E021A2004E95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0130A018E021A2004E95BD /* Build configuration list for PBXNativeTarget "LevelHelper2-SpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0130A118E021A2004E95BD /* Debug */,
+				6E0130A218E021A2004E95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0130A318E021A2004E95BD /* Build configuration list for PBXNativeTarget "LevelHelper2-SpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0130A418E021A2004E95BD /* Debug */,
+				6E0130A518E021A2004E95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB7E13918E2D177009E87AA /* Build configuration list for PBXNativeTarget "LevelHelper2-SpriteKit-NO_ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB7E13A18E2D177009E87AA /* Debug */,
+				6EB7E13B18E2D177009E87AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E01305C18E021A1004E95BD /* Project object */;
+}
