@@ -3,6 +3,7 @@ SpriteKit-Box2d-BUG-REPORT
 
 This repository demonstrate a very hard to reproduce bug in Box2d and Apple SpriteKit.
 
+This bug was submited to Apple with id 16454959
 
 Please look at file LHSceneSubclass.m at line 51 method -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 
@@ -20,3 +21,4 @@ Looking at the Box2d source code we can see that this assert is related to the f
 So while i consider this is a box2d bug, SpriteKit own implementation should handle this. 
 The SolveTOI function should not assert if the collision mask is set so that the bodies wont collide. 
 This is something that is not checked in the SolveTOI function.
+
